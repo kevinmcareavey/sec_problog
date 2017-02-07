@@ -5,6 +5,7 @@ This document describes how to run an SEC ProbLog program (McAreavey et al. 2017
 ## Running Queries
 
 The SEC ProbLog program consists of the following files:
+
 | File | Description |
 | --- | --- |
 | `event_narrative.pl` | Probabilistic event narrative |
@@ -34,6 +35,7 @@ Refer to the ProbLog2 [website](https://dtai.cs.kuleuven.be/problog) for more us
 ## Results
 
 There are two tab-separated files containing formatted query results:
+
 | File | Description |
 | --- | --- |
 | `results/fluent_queries.tsv` | Results for all `holdsAt(F,T)` atoms for significant timepoints specified in `scripts/timepoints.rc` |
