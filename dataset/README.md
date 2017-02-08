@@ -1,6 +1,6 @@
 # SEC ProbLog: Data Set
 
-This document desribes how an intelligent surveillance data set from bus CCTV footage (Hong et al. 2016) was translated to an SEC ProbLog program (McAreavey et al. 2017).  The original data set relies on Dempster-Shafer (DS) theory (Shafer 1976); modelling uncertain information associated with an event using mass functions.
+This document desribes how an event detection data set from bus CCTV footage (Hong et al. 2016) was translated to an SEC ProbLog program (McAreavey et al. 2017).  The original data set relies on Dempster-Shafer (DS) theory (Shafer 1976); modelling uncertain information associated with an event using mass functions.
 
 ## Translating the Data Set
 

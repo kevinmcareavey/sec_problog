@@ -1,6 +1,6 @@
 # SEC ProbLog
 
-This document describes how to run an SEC ProbLog program (McAreavey et al. 2017) that has been used to model an intelligent video surveillance data set (Hong et al. 2016).  The original data set, and details about how it was translated to an SEC ProbLog program, can be found in the `dataset` directory.
+This document describes how to run an SEC ProbLog program (McAreavey et al. 2017) that has been used to model an event detection data set from bus CCTV footage (Hong et al. 2016).  The original data set, and details about how it was translated to an SEC ProbLog program, can be found in the `dataset` directory.
 
 ## Running Queries
 
