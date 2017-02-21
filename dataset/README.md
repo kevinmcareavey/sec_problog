@@ -4,7 +4,7 @@ This document desribes how an event detection data set from bus CCTV footage (Ho
 
 ## Translating the Data Set
 
-The original data set is included in the comma-separated file `dataset/original_events.csv`.  It contains 59 uncertain events, consisting of 5 different event types.  Each event has 2 mass functions: one associated with a start timepoint, and the other associated with an end timepoint.  The mass functions for a given event type are defined over the same frame (of discernment).  Events are deterministically assigned to one of two subjects: P1 or P2.
+The original data set is included in the comma-separated file `dataset/original_events.csv`.  It contains 59 uncertain events, consisting of 5 different event types.  Each event has 2 mass functions: one associated with a start timepoint, and the other associated with an end timepoint.  The mass functions for a given event type are defined over the same frame (of discernment).  Events are deterministically assigned to one of two subjects: S1 or S2.
 
 | Event type | Frame | Description |
 | --- | --- | --- |
