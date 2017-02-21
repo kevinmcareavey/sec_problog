@@ -54,7 +54,7 @@ For PB events, we model the action deterministically, but the gender information
 happens(E,T).
 subject(E,S).
 act(E,boards).
-P1::gender(E,male); ...; P2::gender(E,female).
+P1::gender(E,male); P2::gender(E,female).
 ```
 
 For PM events, we ignore orientation information (since this was not included in the original data set):
@@ -91,4 +91,3 @@ The complete translation of the data set as an SEC ProbLog event narrative can b
 - Kevin McAreavey, Kim Bauters, Weiru Liu, and Jun Hong. The event calculus in probabilistic logic programs with annotated disjunctions. In _Proceedings of the 16th International Conference on Autonomous Agents and Multiagent Systems (AAMAS'17)_, to appear.
 - Glenn Shafer. A Mathematical Theory of Evidence. Princeton University Press, 1976.
 - Philippe Smets. Decision making in the TBM: the necessity of the pignistic transformation. _International Journal of Approximate Reasoning_, 38(2):133–147, 2005.
-

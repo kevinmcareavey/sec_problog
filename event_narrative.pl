@@ -3,13 +3,13 @@
 %
 
 happens(e01,53).
-subject(e01,p1).
+subject(e01,s1).
 act(e01,board).
 0.899::gender(e01,male);
 0.101::gender(e01,female).
 
 happens(e02a,220).
-subject(e02a,p1).
+subject(e02a,s1).
 0.4090909090909091::location(e02a,gangway);
 0.009090909090909092::location(e02a,seat(9));
 0.009090909090909092::location(e02a,seat(18));
@@ -34,7 +34,7 @@ subject(e02a,p1).
 0.009090909090909092::location(e02a,seat(13)).
 
 happens(e02b,231).
-subject(e02b,p1).
+subject(e02b,s1).
 0.009090909090909092::location(e02b,seat(8));
 0.009090909090909092::location(e02b,seat(9));
 0.009090909090909092::location(e02b,seat(17));
@@ -59,7 +59,7 @@ subject(e02b,p1).
 0.009090909090909092::location(e02b,seat(12)).
 
 happens(e03a,245).
-subject(e03a,p1).
+subject(e03a,s1).
 0.009090909090909092::location(e03a,seat(19));
 0.009090909090909092::location(e03a,seat(8));
 0.2230909090909091::location(e03a,seat(9));
@@ -84,7 +84,7 @@ subject(e03a,p1).
 0.009090909090909092::location(e03a,seat(14)).
 
 happens(e03b^e04^e05a,258).
-subject(e03b^e04^e05a,p1).
+subject(e03b^e04^e05a,s1).
 0.01091760773300729::location(e03b^e04^e05a,seat(9));
 0.8925310395154423::location(e03b^e04^e05a,seat(10));
 0.011289061893500247::location(e03b^e04^e05a,seat(6));
@@ -93,7 +93,7 @@ subject(e03b^e04^e05a,p1).
 0.8752362124175274::orientation(e03b^e04^e05a,sitting).
 
 happens(e05b^e06^e07a,273).
-subject(e05b^e06^e07a,p1).
+subject(e05b^e06^e07a,s1).
 0.9358221423777544::location(e05b^e06^e07a,seat(10));
 0.030283336151238217::location(e05b^e06^e07a,gangway);
 0.027822158001781463::location(e05b^e06^e07a,seat(9)).
@@ -101,7 +101,7 @@ subject(e05b^e06^e07a,p1).
 0.9194498852274069::orientation(e05b^e06^e07a,standing).
 
 happens(e07b^e08^e09a,275).
-subject(e07b^e08^e09a,p1).
+subject(e07b^e08^e09a,s1).
 0.00185163839909194::location(e07b^e08^e09a,seat(20));
 0.00185163839909194::location(e07b^e08^e09a,seat(11));
 0.24678775455977303::location(e07b^e08^e09a,seat(10));
@@ -128,7 +128,7 @@ subject(e07b^e08^e09a,p1).
 0.6128199804744675::orientation(e07b^e08^e09a,sitting).
 
 happens(e09b^e10^e11a,378).
-subject(e09b^e10^e11a,p1).
+subject(e09b^e10^e11a,s1).
 0.0018478553513613621::location(e09b^e10^e11a,seat(20));
 0.23648723436848113::location(e09b^e10^e11a,seat(10));
 0.0018478553513613621::location(e09b^e10^e11a,seat(11));
@@ -155,7 +155,7 @@ subject(e09b^e10^e11a,p1).
 0.384961441726307::orientation(e09b^e10^e11a,sitting).
 
 happens(e11b,381).
-subject(e11b,p1).
+subject(e11b,s1).
 0.009090909090909092::location(e11b,seat(20));
 0.1895909090909091::location(e11b,seat(10));
 0.009090909090909092::location(e11b,seat(12));
@@ -180,7 +180,7 @@ subject(e11b,p1).
 0.009090909090909092::location(e11b,seat(1)).
 
 happens(e12,456).
-subject(e12,p1).
+subject(e12,s1).
 0.002380952380952381::location(e12,door);
 0.004761904761904762::location(e12,seat(9));
 0.004761904761904762::location(e12,seat(7));
@@ -207,7 +207,7 @@ subject(e12,p1).
 0.9476190476190476::orientation(e12,sitting).
 
 happens(e13,460).
-subject(e13,p1).
+subject(e13,s1).
 0.002380952380952381::location(e13,gangway);
 0.002380952380952381::location(e13,door);
 0.004761904761904762::location(e13,seat(8));
@@ -234,7 +234,7 @@ subject(e13,p1).
 0.9476190476190476::orientation(e13,standing).
 
 happens(e14,528).
-subject(e14,p1).
+subject(e14,s1).
 0.002380952380952381::location(e14,door);
 0.004761904761904762::location(e14,seat(9));
 0.002380952380952381::location(e14,gangway);
@@ -261,7 +261,7 @@ subject(e14,p1).
 0.9476190476190476::orientation(e14,sitting).
 
 happens(e15a,534).
-subject(e15a,p1).
+subject(e15a,s1).
 0.009090909090909092::location(e15a,seat(11));
 0.009090909090909092::location(e15a,seat(10));
 0.009090909090909092::location(e15a,seat(20));
@@ -286,7 +286,7 @@ subject(e15a,p1).
 0.009090909090909092::location(e15a,seat(1)).
 
 happens(e15b^e16^e17a,539).
-subject(e15b^e16^e17a,p1).
+subject(e15b^e16^e17a,s1).
 0.911137052682418::location(e15b^e16^e17a,seat(6));
 0.052388146902067646::location(e15b^e16^e17a,seat(5));
 0.02896040997701838::location(e15b^e16^e17a,gangway).
@@ -294,7 +294,7 @@ subject(e15b^e16^e17a,p1).
 0.9083707161564334::orientation(e15b^e16^e17a,standing).
 
 happens(e17b,570).
-subject(e17b,p1).
+subject(e17b,s1).
 0.009090909090909092::location(e17b,seat(20));
 0.009090909090909092::location(e17b,seat(10));
 0.009090909090909092::location(e17b,seat(11));
@@ -319,7 +319,7 @@ subject(e17b,p1).
 0.009090909090909092::location(e17b,seat(1)).
 
 happens(e18a,600).
-subject(e18a,p1).
+subject(e18a,s1).
 0.009090909090909092::location(e18a,seat(1));
 0.009090909090909092::location(e18a,seat(11));
 0.009090909090909092::location(e18a,seat(12));
@@ -344,7 +344,7 @@ subject(e18a,p1).
 0.009090909090909092::location(e18a,seat(2)).
 
 happens(e18b^e19^e20a,611).
-subject(e18b^e19^e20a,p1).
+subject(e18b^e19^e20a,s1).
 5.526258098247693E-4::location(e18b^e19^e20a,door);
 0.13604691395234825::location(e18b^e19^e20a,gangway);
 0.0011052516196495385::location(e18b^e19^e20a,seat(2));
@@ -371,7 +371,7 @@ subject(e18b^e19^e20a,p1).
 0.22414928368366202::orientation(e18b^e19^e20a,standing).
 
 happens(e20b^e22^e23a,800).
-subject(e20b^e22^e23a,p1).
+subject(e20b^e22^e23a,s1).
 0.06115856972573884::location(e20b^e22^e23a,seat(5));
 0.028509070351194897::location(e20b^e22^e23a,gangway);
 0.9023631206696607::location(e20b^e22^e23a,seat(6)).
@@ -379,7 +379,7 @@ subject(e20b^e22^e23a,p1).
 0.9044333351813353::orientation(e20b^e22^e23a,standing).
 
 happens(e23b,821).
-subject(e23b,p1).
+subject(e23b,s1).
 0.009090909090909092::location(e23b,seat(16));
 0.009090909090909092::location(e23b,seat(6));
 0.009090909090909092::location(e23b,seat(17));
@@ -404,7 +404,7 @@ subject(e23b,p1).
 0.009090909090909092::location(e23b,seat(15)).
 
 happens(e24a,844).
-subject(e24a,p1).
+subject(e24a,s1).
 0.009090909090909092::location(e24a,seat(19));
 0.009090909090909092::location(e24a,seat(8));
 0.009090909090909092::location(e24a,seat(18));
@@ -429,7 +429,7 @@ subject(e24a,p1).
 0.009090909090909092::location(e24a,seat(16)).
 
 happens(e24b,854).
-subject(e24b,p1).
+subject(e24b,s1).
 0.009090909090909092::location(e24b,seat(18));
 0.009090909090909092::location(e24b,seat(7));
 0.009090909090909092::location(e24b,seat(17));
@@ -454,7 +454,7 @@ subject(e24b,p1).
 0.009090909090909092::location(e24b,seat(15)).
 
 happens(e25a,882).
-subject(e25a,p1).
+subject(e25a,s1).
 0.009090909090909092::location(e25a,seat(9));
 0.009090909090909092::location(e25a,seat(19));
 0.009090909090909092::location(e25a,seat(8));
@@ -479,7 +479,7 @@ subject(e25a,p1).
 0.009090909090909092::location(e25a,seat(17)).
 
 happens(e25b,897).
-subject(e25b,p1).
+subject(e25b,s1).
 0.009090909090909092::location(e25b,seat(19));
 0.009090909090909092::location(e25b,seat(8));
 0.009090909090909092::location(e25b,seat(18));
@@ -504,7 +504,7 @@ subject(e25b,p1).
 0.009090909090909092::location(e25b,seat(16)).
 
 happens(e26a,903).
-subject(e26a,p1).
+subject(e26a,s1).
 0.2330909090909091::location(e26a,gangway);
 0.009090909090909092::location(e26a,seat(7));
 0.009090909090909092::location(e26a,seat(8));
@@ -529,7 +529,7 @@ subject(e26a,p1).
 0.009090909090909092::location(e26a,seat(17)).
 
 happens(e26b^e27^e28a,920).
-subject(e26b^e27^e28a,p1).
+subject(e26b^e27^e28a,s1).
 0.029600481886358866::location(e26b^e27^e28a,seat(10));
 0.0010779490854464265::location(e26b^e27^e28a,seat(20));
 5.389745427232133E-4::location(e26b^e27^e28a,door);
@@ -556,7 +556,7 @@ subject(e26b^e27^e28a,p1).
 0.2508664554748795::orientation(e26b^e27^e28a,standing).
 
 happens(e28b,947).
-subject(e28b,p1).
+subject(e28b,s1).
 0.2330909090909091::location(e28b,gangway);
 0.009090909090909092::location(e28b,door);
 0.009090909090909092::location(e28b,seat(9));
@@ -581,7 +581,7 @@ subject(e28b,p1).
 0.009090909090909092::location(e28b,seat(18)).
 
 happens(e29a,975).
-subject(e29a,p1).
+subject(e29a,s1).
 0.009090909090909092::location(e29a,door);
 0.009090909090909092::location(e29a,seat(7));
 0.2270909090909091::location(e29a,seat(6));
@@ -606,7 +606,7 @@ subject(e29a,p1).
 0.009090909090909092::location(e29a,seat(19)).
 
 happens(e29b,1122).
-subject(e29b,p1).
+subject(e29b,s1).
 0.3780909090909091::location(e29b,seat(9));
 0.009090909090909092::location(e29b,door);
 0.2245909090909091::location(e29b,seat(6));
@@ -631,7 +631,7 @@ subject(e29b,p1).
 0.009090909090909092::location(e29b,seat(18)).
 
 happens(e30a,1152).
-subject(e30a,p1).
+subject(e30a,s1).
 0.009090909090909092::location(e30a,door);
 0.2200909090909091::location(e30a,gangway);
 0.3870909090909091::location(e30a,seat(9));
@@ -656,7 +656,7 @@ subject(e30a,p1).
 0.009090909090909092::location(e30a,seat(1)).
 
 happens(e30b,1165).
-subject(e30b,p1).
+subject(e30b,s1).
 0.009090909090909092::location(e30b,door);
 0.2020909090909091::location(e30b,gangway);
 0.4230909090909091::location(e30b,seat(9));
@@ -681,13 +681,13 @@ subject(e30b,p1).
 0.009090909090909092::location(e30b,seat(1)).
 
 happens(e31,1170).
-subject(e31,p2).
+subject(e31,s2).
 act(e31,board).
 0.05::gender(e31,female);
 0.9500000000000001::gender(e31,male).
 
 happens(e32a,1189).
-subject(e32a,p1).
+subject(e32a,s1).
 0.009090909090909092::location(e32a,door);
 0.29409090909090907::location(e32a,gangway);
 0.009090909090909092::location(e32a,seat(19));
@@ -712,7 +712,7 @@ subject(e32a,p1).
 0.009090909090909092::location(e32a,seat(1)).
 
 happens(e32b^e33^e34a,1205).
-subject(e32b^e33^e34a,p1).
+subject(e32b^e33^e34a,s1).
 5.209391490979887E-4::location(e32b^e33^e34a,door);
 0.0010418782981959774::location(e32b^e33^e34a,seat(8));
 0.0010418782981959774::location(e32b^e33^e34a,seat(7));
@@ -739,7 +739,7 @@ subject(e32b^e33^e34a,p1).
 0.33771964096873514::orientation(e32b^e33^e34a,sitting).
 
 happens(e34b^e36a,1207).
-subject(e34b^e36a,p1).
+subject(e34b^e36a,s1).
 0.0022281639928698753::location(e34b^e36a,door);
 0.0022281639928698753::location(e34b^e36a,seat(20));
 0.7289438502673796::location(e34b^e36a,gangway);
@@ -764,7 +764,7 @@ subject(e34b^e36a,p1).
 0.054801693404634574::location(e34b^e36a,seat(2)).
 
 happens(e38a,1259).
-subject(e38a,p1).
+subject(e38a,s1).
 0.009090909090909092::location(e38a,seat(20));
 0.009090909090909092::location(e38a,seat(10));
 0.009090909090909092::location(e38a,seat(11));
@@ -789,7 +789,7 @@ subject(e38a,p1).
 0.009090909090909092::location(e38a,seat(4)).
 
 happens(e36b,1263).
-subject(e36b,p1).
+subject(e36b,s1).
 0.009090909090909092::location(e36b,door);
 0.009090909090909092::location(e36b,seat(20));
 0.3090909090909091::location(e36b,seat(10));
@@ -814,7 +814,7 @@ subject(e36b,p1).
 0.009090909090909092::location(e36b,seat(2)).
 
 happens(e38b^e40a,1275).
-subject(e38b^e40a,p1).
+subject(e38b^e40a,s1).
 0.0033275655530413954::location(e38b^e40a,seat(18));
 0.0033275655530413954::location(e38b^e40a,seat(8));
 0.0033275655530413954::location(e38b^e40a,seat(19));
@@ -839,7 +839,7 @@ subject(e38b^e40a,p1).
 0.0033275655530413954::location(e38b^e40a,seat(9)).
 
 happens(e42a,1302).
-subject(e42a,p2).
+subject(e42a,s2).
 0.2540909090909091::location(e42a,seat(10));
 0.009090909090909092::location(e42a,seat(11));
 0.009090909090909092::location(e42a,seat(12));
@@ -864,7 +864,7 @@ subject(e42a,p2).
 0.009090909090909092::location(e42a,seat(17)).
 
 happens(e40b,1320).
-subject(e40b,p1).
+subject(e40b,s1).
 0.009090909090909092::location(e40b,seat(10));
 0.009090909090909092::location(e40b,seat(20));
 0.009090909090909092::location(e40b,seat(3));
@@ -889,7 +889,7 @@ subject(e40b,p1).
 0.009090909090909092::location(e40b,seat(15)).
 
 happens(e42b,1353).
-subject(e42b,p2).
+subject(e42b,s2).
 0.009090909090909092::location(e42b,seat(20));
 0.009090909090909092::location(e42b,seat(10));
 0.009090909090909092::location(e42b,seat(11));
@@ -914,7 +914,7 @@ subject(e42b,p2).
 0.009090909090909092::location(e42b,seat(16)).
 
 happens(e44a,1384).
-subject(e44a,p2).
+subject(e44a,s2).
 0.009090909090909092::location(e44a,seat(2));
 0.009090909090909092::location(e44a,seat(13));
 0.009090909090909092::location(e44a,seat(1));
@@ -939,7 +939,7 @@ subject(e44a,p2).
 0.6930909090909091::location(e44a,seat(18)).
 
 happens(e44b,1393).
-subject(e44b,p2).
+subject(e44b,s2).
 0.009090909090909092::location(e44b,seat(1));
 0.009090909090909092::location(e44b,seat(12));
 0.009090909090909092::location(e44b,seat(11));
@@ -964,11 +964,11 @@ subject(e44b,p2).
 0.009090909090909092::location(e44b,seat(17)).
 
 happens(e45,1395).
-subject(e45,p1).
+subject(e45,s1).
 0.9::act(e45,exit).
 
 happens(e46a,1423).
-subject(e46a,p2).
+subject(e46a,s2).
 0.009090909090909092::location(e46a,seat(16));
 0.009090909090909092::location(e46a,seat(5));
 0.009090909090909092::location(e46a,seat(17));
@@ -993,7 +993,7 @@ subject(e46a,p2).
 0.009090909090909092::location(e46a,seat(19)).
 
 happens(e46b^e47^e48a,1429).
-subject(e46b^e47^e48a,p2).
+subject(e46b^e47^e48a,s2).
 0.9792468617148175::location(e46b^e47^e48a,seat(9));
 0.010780973196788972::location(e46b^e47^e48a,seat(13));
 0.002990709051973445::location(e46b^e47^e48a,seat(10));
@@ -1002,7 +1002,7 @@ subject(e46b^e47^e48a,p2).
 0.939991783387395::orientation(e46b^e47^e48a,sitting).
 
 happens(e48b,1447).
-subject(e48b,p2).
+subject(e48b,s2).
 0.009090909090909092::location(e48b,seat(18));
 0.009090909090909092::location(e48b,seat(7));
 0.009090909090909092::location(e48b,seat(17));
@@ -1027,7 +1027,7 @@ subject(e48b,p2).
 0.009090909090909092::location(e48b,seat(19)).
 
 happens(e49a,1465).
-subject(e49a,p2).
+subject(e49a,s2).
 0.5390909090909091::location(e49a,seat(9));
 0.009090909090909092::location(e49a,seat(19));
 0.009090909090909092::location(e49a,seat(8));
@@ -1052,7 +1052,7 @@ subject(e49a,p2).
 0.1440909090909091::location(e49a,gangway).
 
 happens(e49b^e55^e56a,1705).
-subject(e49b^e55^e56a,p2).
+subject(e49b^e55^e56a,s2).
 0.9721389808029024::location(e49b^e55^e56a,seat(9));
 0.014753941461846313::location(e49b^e55^e56a,seat(10));
 0.007376970730923156::location(e49b^e55^e56a,gangway).
@@ -1060,7 +1060,7 @@ subject(e49b^e55^e56a,p2).
 0.9336966221174076::orientation(e49b^e55^e56a,standing).
 
 happens(e56b,1711).
-subject(e56b,p2).
+subject(e56b,s2).
 0.009090909090909092::location(e56b,door);
 0.1440909090909091::location(e56b,gangway);
 0.009090909090909092::location(e56b,seat(16));
@@ -1085,7 +1085,7 @@ subject(e56b,p2).
 0.009090909090909092::location(e56b,seat(4)).
 
 happens(e57,1782).
-subject(e57,p2).
+subject(e57,s2).
 0.002380952380952381::location(e57,door);
 0.002380952380952381::location(e57,gangway);
 0.004761904761904762::location(e57,seat(11));
@@ -1112,7 +1112,7 @@ subject(e57,p2).
 0.05238095238095236::orientation(e57,standing).
 
 happens(e58a,1785).
-subject(e58a,p2).
+subject(e58a,s2).
 0.009090909090909092::location(e58a,door);
 0.009090909090909092::location(e58a,seat(19));
 0.1320909090909091::location(e58a,gangway);
@@ -1137,7 +1137,7 @@ subject(e58a,p2).
 0.009090909090909092::location(e58a,seat(6)).
 
 happens(e58b,1794).
-subject(e58b,p2).
+subject(e58b,s2).
 0.009090909090909092::location(e58b,door);
 0.009090909090909092::location(e58b,seat(19));
 0.009090909090909092::location(e58b,seat(18));
@@ -1162,7 +1162,7 @@ subject(e58b,p2).
 0.009090909090909092::location(e58b,seat(5)).
 
 happens(e59,1855).
-subject(e59,p2).
+subject(e59,s2).
 0.004761904761904762::location(e59,seat(19));
 0.002380952380952381::location(e59,gangway);
 0.004761904761904762::location(e59,seat(20));
@@ -1189,7 +1189,7 @@ subject(e59,p2).
 0.05238095238095236::orientation(e59,sitting).
 
 happens(e61a,1915).
-subject(e61a,p2).
+subject(e61a,s2).
 0.009090909090909092::location(e61a,seat(20));
 0.009090909090909092::location(e61a,door);
 0.0770909090909091::location(e61a,seat(10));
@@ -1214,7 +1214,7 @@ subject(e61a,p2).
 0.009090909090909092::location(e61a,seat(18)).
 
 happens(e61b^e62^e63a,1919).
-subject(e61b^e62^e63a,p2).
+subject(e61b^e62^e63a,s2).
 0.9806140172895197::location(e61b^e62^e63a,seat(9));
 0.009534543986108188::location(e61b^e62^e63a,seat(10));
 0.004767271993054094::location(e61b^e62^e63a,gangway).
@@ -1222,7 +1222,7 @@ subject(e61b^e62^e63a,p2).
 0.9388239668279281::orientation(e61b^e62^e63a,sitting).
 
 happens(e63b^e70^e71a,2061).
-subject(e63b^e70^e71a,p2).
+subject(e63b^e70^e71a,s2).
 0.009644739738985416::location(e63b^e70^e71a,seat(10));
 0.9804492488246251::location(e63b^e70^e71a,seat(9));
 0.004822369869492708::location(e63b^e70^e71a,gangway).
@@ -1230,7 +1230,7 @@ subject(e63b^e70^e71a,p2).
 0.05619407925578511::orientation(e63b^e70^e71a,sitting).
 
 happens(e71b,2077).
-subject(e71b,p2).
+subject(e71b,s2).
 0.009090909090909092::location(e71b,seat(4));
 0.009090909090909092::location(e71b,seat(15));
 0.009090909090909092::location(e71b,seat(16));
@@ -1255,7 +1255,7 @@ subject(e71b,p2).
 0.009090909090909092::location(e71b,seat(3)).
 
 happens(e73a,2122).
-subject(e73a,p2).
+subject(e73a,s2).
 0.009090909090909092::location(e73a,seat(19));
 0.009090909090909092::location(e73a,seat(8));
 0.009090909090909092::location(e73a,seat(18));
@@ -1280,14 +1280,14 @@ subject(e73a,p2).
 0.009090909090909092::location(e73a,seat(5)).
 
 happens(e73b^e74^e75a,2125).
-subject(e73b^e74^e75a,p2).
+subject(e73b^e74^e75a,s2).
 0.056546042289959325::location(e73b^e74^e75a,seat(13));
 0.9355146727648734::location(e73b^e74^e75a,seat(9)).
 0.9207726741930046::orientation(e73b^e74^e75a,sitting);
 0.07128804086182822::orientation(e73b^e74^e75a,standing).
 
 happens(e75b^e76^e77a,2129).
-subject(e75b^e76^e77a,p2).
+subject(e75b^e76^e77a,s2).
 0.0012333345666678893::location(e75b^e76^e77a,seat(20));
 0.0012333345666678893::location(e75b^e76^e77a,seat(10));
 0.0012333345666678893::location(e75b^e76^e77a,seat(1));
@@ -1314,7 +1314,7 @@ subject(e75b^e76^e77a,p2).
 0.15839099172432378::orientation(e75b^e76^e77a,sitting).
 
 happens(e77b,2304).
-subject(e77b,p2).
+subject(e77b,s2).
 0.009090909090909092::location(e77b,door);
 0.009090909090909092::location(e77b,seat(15));
 0.009090909090909092::location(e77b,seat(16));
@@ -1339,6 +1339,5 @@ subject(e77b,p2).
 0.009090909090909092::location(e77b,seat(6)).
 
 happens(e78,2440).
-subject(e78,p2).
+subject(e78,s2).
 0.9::act(e78,exit).
-
