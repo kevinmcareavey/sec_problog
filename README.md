@@ -4,13 +4,13 @@ This document describes how to run an SEC ProbLog program (McAreavey et al. 2017
 
 ## Dependencies
 
-This packages depends on [ProbLog2](https://dtai.cs.kuleuven.be/problog/#download-use-change-improve).  The scripts included in `scripts` also assume that the ProbLog2 script `problog-cli.py` is available as a command `problog` in the PATH environment variable.  This can be resolved e.g. by running:
+This packages depends on [ProbLog2](https://dtai.cs.kuleuven.be/problog/#download-use-change-improve).  Also, the scripts included in the `scripts` directory assume that the ProbLog2 script `problog-cli.py` is available as a command `problog` in the PATH environment variable.  This can be resolved e.g. by running:
 
 ```shell
 $ ln -s /path/to/problog-cli.py /usr/local/bin/problog
 ```
 
-The package has been tested on Ubuntu 16.04.2 (64-bit) and macOS Sierra 10.12.3.
+The package has been run successfully on Ubuntu 16.04.2 (64-bit) and macOS Sierra 10.12.3.
 
 ## Running Queries
 
