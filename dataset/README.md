@@ -1,6 +1,6 @@
 # SEC ProbLog: Data Set
 
-This document desribes how an event detection data set from bus CCTV footage (Hong et al. 2016) was translated to an SEC ProbLog program (McAreavey et al. 2017).  The original data set relies on Dempster-Shafer (DS) theory (Shafer 1976); modelling uncertain information associated with an event using mass functions.
+This document desribes how an event detection data set obtained from vision analytics of bus surveillance video (Hong et al. 2016) was translated to an SEC ProbLog program (McAreavey et al. 2017).  The original data set relies on Dempster-Shafer (DS) theory (Shafer 1976); modelling uncertain information associated with an event using mass functions.
 
 ## Translating the Data Set
 
@@ -88,6 +88,6 @@ The complete translation of the data set as an SEC ProbLog event narrative can b
 
 ## References
 - Xin Hong, Yan Huang, Wenjun Ma, Sriram Varadarajan, Paul Miller, Weiru Liu, Maria Jose Santofimia Romero, Jesus Martinez del Rincon, and Huiyu Zhou. Evidential event inference in transport video surveillance. _Computer Vision and Image Understanding_ 144:276-297, 2016.
-- Kevin McAreavey, Kim Bauters, Weiru Liu, and Jun Hong. The event calculus in probabilistic logic programs with annotated disjunctions. In _Proceedings of the 16th International Conference on Autonomous Agents and Multiagent Systems (AAMAS'17)_, to appear.
+- Kevin McAreavey, Kim Bauters, Weiru Liu, and Jun Hong. The event calculus in probabilistic logic programming with annotated disjunctions. In _Proceedings of the 16th International Conference on Autonomous Agents and Multiagent Systems (AAMAS'17)_, to appear.
 - Glenn Shafer. A Mathematical Theory of Evidence. Princeton University Press, 1976.
 - Philippe Smets. Decision making in the TBM: the necessity of the pignistic transformation. _International Journal of Approximate Reasoning_, 38(2):133–147, 2005.

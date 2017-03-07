@@ -1,6 +1,6 @@
 # SEC ProbLog
 
-This document describes how to run an SEC ProbLog program (McAreavey et al. 2017) that has been used to model an event detection data set from bus CCTV footage (Hong et al. 2016).  The original data set, and details about how it was translated to an SEC ProbLog program, can be found in the `dataset` directory.
+This document describes how to run an SEC ProbLog program (McAreavey et al. 2017) that has been used to model an event detection data set obtained from vision analytics of bus surveillance video (Hong et al. 2016).  The original data set, and details about how it was translated to an SEC ProbLog program, can be found in the `dataset` directory.
 
 ## Running Queries
 
@@ -50,4 +50,4 @@ $ ./run.sh
 
 ## References
 - Xin Hong, Yan Huang, Wenjun Ma, Sriram Varadarajan, Paul Miller, Weiru Liu, Maria Jose Santofimia Romero, Jesus Martinez del Rincon, and Huiyu Zhou. Evidential event inference in transport video surveillance. _Computer Vision and Image Understanding_ 144:276-297, 2016.
-- Kevin McAreavey, Kim Bauters, Weiru Liu, and Jun Hong. The event calculus in probabilistic logic programs with annotated disjunctions. In _Proceedings of the 16th International Conference on Autonomous Agents and Multiagent Systems (AAMAS'17)_, to appear.
+- Kevin McAreavey, Kim Bauters, Weiru Liu, and Jun Hong. The event calculus in probabilistic logic programming with annotated disjunctions. In _Proceedings of the 16th International Conference on Autonomous Agents and Multiagent Systems (AAMAS'17)_, to appear.
