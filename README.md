@@ -2,6 +2,16 @@
 
 This document describes how to run an SEC ProbLog program (McAreavey et al. 2017) that has been used to model an event detection data set obtained from vision analytics of bus surveillance video (Hong et al. 2016).  The original data set, and details about how it was translated to an SEC ProbLog program, can be found in the `dataset` directory.
 
+## Dependencies
+
+This packages depends on [ProbLog2](https://dtai.cs.kuleuven.be/problog/#download-use-change-improve).  The scripts included in `scripts` also assume that the ProbLog2 script `problog-cli.py` is available as a command `problog` in the PATH environment variable.  This can be resolved e.g. by running:
+
+```shell
+$ ln -s /path/to/problog-cli.py /usr/local/bin/problog
+```
+
+The package has been tested on Ubuntu 16.04.2 (64-bit) and macOS Sierra 10.12.3.
+
 ## Running Queries
 
 The SEC ProbLog program consists of the following files:
